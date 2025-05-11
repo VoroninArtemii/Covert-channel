@@ -27,12 +27,3 @@ This bash script automates the entire process:
 2. Runs `Covert.py` to send the message stored in `Data.txt` over the network.
 3. Stops the packet capture.
 4. Runs `Capture.py` to decode the captured packets and print the decoded binary message.
-
-The script ensures the process runs smoothly by sequentially executing each step.
-
-## Requirements
-
-- Python 3
-- Root privileges (required to use `tcpdump` and send raw packets)
-- `tcpdump` installed on the system
-- A Linux environment with IPv6 enabled
